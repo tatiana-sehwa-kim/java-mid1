@@ -17,8 +17,8 @@ public class StringComparisonMain {
         System.out.println("str1 compareTo str3: " + str1.compareTo(str3));     // 출력 -13
         System.out.println("str1 compareToIgnoreCase str2: " + str1.compareToIgnoreCase(str2));     // 출력 0
 
-        System.out.println("str1 starts with 'Hello': " + str1.startsWith("Hello"));        // 출력: true
-        System.out.println("str1 ends with 'Java!': " + str1.endsWith("Java!"));            // 출력: true
+        System.out.println("str1 starts with 'Hello': " + str1.startsWith("Hello"));           // 출력: true
+        System.out.println("str1 ends with 'Java!': " + str1.endsWith("Java!"));               // 출력: true
 
     }
 }
