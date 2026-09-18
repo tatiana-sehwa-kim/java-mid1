@@ -7,8 +7,8 @@ public class StringComparisonMain {
         String str2 = "hello, java!";   // 대문자없고 소문자만
         String str3 = "Hello, World!";
 
-        System.out.println("str1 equals str2: " + str1.equals(str2));
-        System.out.println("str1 equalsIgnoreCase str2: " + str1.equalsIgnoreCase(str2)); // 대소문자 무시하고 같은지
+        System.out.println("str1 equals str2: " + str1.equals(str2));           // str1 equals str2: false
+        System.out.println("str1 equalsIgnoreCase str2: " + str1.equalsIgnoreCase(str2)); // str1 equalsIgnoreCase str2: true 대소문자 무시하고 같은지
 
         System.out.println("'a' compareTo 'b': " + "a".compareTo("b"));     // 출력: -1
         System.out.println("'b' compareTo 'a': " + "b".compareTo("a"));     // 출력: 1
