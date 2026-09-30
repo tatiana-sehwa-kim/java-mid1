@@ -1,0 +1,20 @@
+package enumeration.ref3;
+
+public class EnumRefMain3_4 {
+    public static void main(String[] args) {        // 등급추가
+
+        int price = 10000;
+        Grade[] grades = Grade.values();    // 등급을 iter
+        for (Grade grade : grades) {
+            printDiscount(grade, price);
+        }
+    }
+
+    private static void printDiscount(Grade grade, int price) {
+        System.out.println(grade.name() + " 등급의 할인 금액: " + grade.discount(price));
+    }
+}
+
+//    BASIC 등급의 할인 금액: 1000
+//    GOLD 등급의 할인 금액: 2000
+//    DIAMOND 등급의 할인 금액: 3000
