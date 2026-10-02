@@ -14,3 +14,6 @@ public class TestPlus {
         System.out.println("1년 2개월 3일 4시간 후의 시각 " + futureDateTime);
     }
 }
+
+//    기준 시각: 2024-01-01T00:00
+//    1년 2개월 3일 4시간 후의 시각 2025-03-04T04:00
