@@ -11,7 +11,7 @@ public class TestLoopPlus {
         LocalDate startDate = LocalDate.of(2024, 1, 1);
 
         for (int i = 0; i < 5; i++) {
-            LocalDate nextDate = startDate.plus(( i * 2 ), ChronoUnit.WEEKS);
+            LocalDate nextDate = startDate.plusWeeks( i * 2 );
             System.out.println("날짜 " + ( i + 1 ) + ": " + nextDate);
         }
     }
