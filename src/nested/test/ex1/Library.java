@@ -1,4 +1,4 @@
-package nested.test;
+package nested.test.ex1;
 
 public class Library {          // 문제는 맵,리스트 특정도구를 쓰는게 아니라 만든 모음 배열을
 
